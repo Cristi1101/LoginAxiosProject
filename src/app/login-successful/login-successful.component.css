@@ -1,0 +1,15 @@
+.navbar {
+    width: 100%;
+    background: rgb(56, 56, 71);
+}
+
+.album {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+img {
+    width: 200px; 
+    height: 200px; 
+}
