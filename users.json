@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "user": "jondoe@gmail.com",
+            "password": "Qq1!aaaa",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "user": "jondoe1@gmail.com",
+            "password": "Qq1!aaaa",
+            "role": "user"
+        },
+        {
+            "id": 3,
+            "user": "jondoe2@gmail.com",
+            "password": "Qq1!aaaa",
+            "role": "user"
+        },
+        {
+            "id": 4,
+            "user": "jondoe3@gmail.com",
+            "password": "Qq1!aaaa",
+            "role": "user"
+        }
+    ]
+}
