@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     private route: Router) { }
 
   ngOnInit(): void {
-    // form builder - folosit pt two-way-binding (daca se schimba data pe html, se schimba si pe ts, daca se schimba pe ts se shcimba si pe html).
+    // form builder - folosit pt two-way-binding
     this.form = this.builder.group({
       //validari custom sau predefinite
       user: ['', [Validators.required, Validators.email]],
@@ -36,7 +36,6 @@ export class LoginComponent implements OnInit {
       password: this.form.controls.password.value
     };
 
-    //functia "login" returneaza un Observable pe care facem subscribe, asteapta ansincron, cand vin datele se executa
     this.authenticationService.login(credentials).subscribe((response: UserResponse) => {
       // response de la "backend"
       console.log("response: ", response);
